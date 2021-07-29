@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gui calculater</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+
+</head>
+
+<body id="bg">
+    <div class="start">
+        <ul>
+            <li class="list">
+                <a href="https://youtube.com"> Donate 69$</a>
+            </li>
+            <li class="list">
+                <a href="https://t.me/ashit10">More info</a>
+            </li>
+            <li class="list">
+                <a href="file/3.py">Email</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+
+        <form name="form">
+            <div class="display">
+                <input class="displaysize" type="text" placeholder="0" name="displayResult" />
+            </div>
+            <div class="buttons">
+
+                <div class="row">
+                    <input class="btn" id="no7" type="button" name="b7" value="7" onclick="func(b7.value)">
+                    <input class="btn" id="no8" type="button" name="b8" value="8" onclick="func(b8.value)">
+                    <input class="btn" id="no9" type="button" name="b9" value="9" onclick="func(b9.value)">
+                    <input class="btn" id="noplus" type="button" name="plus" value="+" onclick="func(plus.value)">
+                </div>
+
+                <div class="row">
+                    <input class="btn" id="no4" type="button" name="b4" value="4" onclick="func(b4.value)">
+                    <input class="btn" id="no5" type="button" name="b5" value="5" onclick="func(b5.value)">
+                    <input class="btn" id="no6" type="button" name="b6" value="6" onclick="func(b6.value)">
+                    <input class="btn" id="nominus" type="button" name="minus" value="-" onclick="func(minus.value)">
+                </div>
+
+                <div class="row">
+                    <input class="btn" id="no1" type="button" name="b1" value="1" onclick="func(b1.value)">
+                    <input class="btn" id="no2" type="button" name="b2" value="2" onclick="func(b2.value)">
+                    <input class="btn" id="no3" type="button" name="b3" value="3" onclick="func(b3.value)">
+                    <input class="btn" id="nomul" type="button" name="mul" value="*" onclick="func(mul.value)">
+                </div>
+
+                <div class="row">
+                    <input class="btn" id="no0" type="button" name="b0" value="0" onclick="func(b0.value)">
+                    <input class="btn" id="nod" type="button" name="bd" value="." onclick="func(bd.value)">
+                    <input class="btn" id="nodivv" type="button" name="divv" value="/" onclick="func(divv.value)">
+                    <input class="blue" id="noeuqual" type="button" value="="
+                        onclick="displayResult.value=eval(displayResult.value)">
+                </div>
+
+            </div>
+
+        </form>
+        <button type="text" class="but"> copyright @Ashit10</button>
+        <div class="foot">
+            <img class="sss" src="https://source.unsplash.com/random/?water" alt="error while loading the image">
+            <img class="sss" src="https://source.unsplash.com/random/fire" alt="Error while loading the image">
+            <img class="sss" src="https://source.unsplash.com/random/?earth" alt="Error while loading the image"> 
+            <img class="sss" src="https://source.unsplash.com/random/?trees" alt="Error while loading the image">
+            <img class="sss" src="https://source.unsplash.com/random/?Sky" alt="Error while loading the image">
+        </div>
+
+    </div>
+    <script>
+
+        function func(result) {
+
+            form.displayResult.value = form.displayResult.value + result;
+
+        }
+        alert("This is my first time , so don't hesitate ");
+
+    </script>
+     
+ 
+</body>
+
+</html>
